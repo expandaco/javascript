@@ -1,16 +1,12 @@
-# Airbnb JavaScript Style Guide() {
+# Expanda JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+## Introduction
 
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Other Style Guides
  - [ES5](es5/)
- - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
+ - [Ember](ember/)
+ - [CSS & Sass](https://github.com/expandaco/css)
 
 ## Table of Contents
 
@@ -1831,24 +1827,7 @@ Other Style Guides
 ## Whitespace
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
-  - [18.1](#whitespace--spaces) Use soft tabs set to 2 spaces. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
-
-    ```javascript
-    // bad
-    function foo() {
-    ∙∙∙∙const name;
-    }
-
-    // bad
-    function bar() {
-    ∙const name;
-    }
-
-    // good
-    function baz() {
-    ∙∙const name;
-    }
-    ```
+  - [18.1](#whitespace--spaces) Use hard tabs. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
 
   <a name="whitespace--before-blocks"></a><a name="18.2"></a>
   - [18.2](#whitespace--before-blocks) Place 1 space before the leading brace. eslint: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html) jscs: [`requireSpaceBeforeBlockStatements`](http://jscs.info/rule/requireSpaceBeforeBlockStatements)
